@@ -1,0 +1,753 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+td:nth-child(1) {
+border-right:3px solid #BBBBBB;
+}
+
+
+td{
+	color:#9A694B;
+	padding-left:5px;
+	padding-right: 5px;
+	padding-top:30px;
+}
+input[type=range]:focus {
+    outline: none;
+}
+
+#endTime{
+	border:2px solid #ffffff;
+}
+
+
+.hamburger{
+	font-size:6vw;
+	float:left;
+	padding-top:5vw;
+	padding-left:3vw;
+	color:#7a7a7a;
+	
+}
+.wakingMan{
+	position:absolute;
+	left:5px;
+	
+}
+input[type=range]{
+    -webkit-appearance: none;
+  
+}
+
+
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 40px;
+    width: 45px;
+    border-radius: 5px;
+    margin-top: -40px;
+    background-image:url(../images/distanceRemark.svg);
+	padding-top:0px;
+}
+#fromTimeSlider::-webkit-slider-thumb {
+	background-image:url(../images/remark1.svg);
+}
+#toTimeSlider::-webkit-slider-thumb {
+	background-image:url(../images/endRemark.svg);
+}
+
+
+a#logo{
+	display:block;
+	background-image: url(../images/logo10.svg);
+	background-repeat: no-repeat;
+	height:100px;
+	width:100px;
+	margin:auto;
+	position:relative;
+	top:5px;
+	text-decoration:none;
+
+}
+
+
+ul{
+	list-style-type:none;
+	width:100%;
+//	border:1px solid #f7f6f6;
+	background:#777777;
+}
+footer ul{
+	list-style-type:none;
+	width:96%;
+//	border:1px solid #f7f6f6;
+	position:relative;
+	margin-left:10px;
+	
+}
+footer li{
+	position:relative;	
+}
+
+
+
+.unPickedNav a{
+	color:#ffffff;	
+	text-decoration:none;
+}
+.unPickedNav{
+	
+	background:#777777;
+}
+.pickedNav{
+	background:#ffffff;
+}
+
+.pickedNav a{
+	color:#9a694b;
+	text-decoration:none;
+}
+
+
+nav, header, footer, main, aside, section, article, {
+	display:block;
+}
+
+@media (min-width:701px) {
+			
+			
+			table{
+				font-size:1.5vw;
+				margin:auto;
+				padding-bottom:20px;
+			}
+			.confirmationMessage{
+				color:#777777;
+				margin:auto;
+				width:90%;
+				font-size:3vw;
+				text-align:center;
+				z-index:99999;
+			}
+			
+			.confirmationMessage span{
+				font-size:5vw;
+					
+			}
+			a#logo{
+				margin-left:10px;
+				padding-left:100px;	
+				padding-top:40px;
+				width:300px;
+				color:#9A694B;
+				font-family:Brush Script MT,cursive;
+				font-size:40px;
+			}
+			.hamburger{
+				display:none;
+			}
+			
+			input[type=range]::-webkit-slider-runnable-track {
+    			width: 80%;
+    			height: 2px;
+   				border: none;
+    			border-radius: 3px;
+    			margin-top:40px;
+			}
+	
+			output {
+			  display: block;
+			  color:#9A694B;
+			  font-size:2.5vw;
+			  text-align:center;
+			  padding-bottom: 0px;
+			  
+			}
+			
+			article article{
+				width:80%;
+				border:1px solid #bbbbbb;
+				border-radius:3px;
+				margin: auto;
+				color:#7777777;
+				padding-top:3px;
+				padding-bottom: 3px;
+				margin-bottom: 40px;
+			}
+			
+			.input-range{
+				width:75%;
+				margin:auto;
+				border-bottom:2px solid #cccccc;
+				padding-bottom:5px;
+				padding-top:5px;
+				
+			}
+			#mapArticle,#streetViewArticle{
+				padding-bottom: 0px;
+			}
+	
+			nav{
+				width:100%;
+				//height:13.3vw;
+				font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				margin-bottom:2.5vw;
+			}
+
+			li{
+				text-align:center;
+				padding-top:14px;
+				padding-bottom:11px;
+				float:left;
+				color:white;
+				width:10%;
+				font-size:1.5vw;
+				color:white;
+			}
+			
+			li a:hover{
+			border-bottom:1px solid white;
+			
+		}
+					
+			#desktopContainer{
+				display:block;
+			}
+			#mobileContainer{
+				display:none;
+			}
+		
+			.box img{
+				float:left;
+				display:inline;
+				height:auto;
+				
+			}
+		
+			#user{
+				background-image: url(../images/postParking.png);
+				background-repeat:no-repeat;
+				background-size:contain;
+			}
+			
+			#user .page-header{
+				border-bottom:none; 
+				
+			}
+			#user button,#user summary
+			{
+				visibility:hidden;
+			}
+				
+		
+			.box{
+				width:48%;
+				border:1px solid #bbbbbb;
+				float:left;
+				margin-right:2%;
+				padding-bottom:1%;
+				text-align:center;
+				background:#ffffff;
+				margin-bottom:2%;
+			}
+	
+			section span{
+				font-size:6vw;
+			}
+
+			
+			footer ul{
+				margin-left:0px;
+			}
+			
+			section img{
+				float:right;
+				padding-right:2vw;
+				
+				
+			}
+			
+				
+			.addressBox{
+				border:1px solid #bbbbbb;	
+				border-left: 6px solid #9a694b;
+				margin-bottom:1.5vw;
+				height:4vw;
+				padding-top:1vw;
+				border-radius:5px;
+				width:85%;
+				margin-left:3vw;
+				cursor: pointer;
+			}	
+				
+				
+			#moneyToPay{
+				color:#0088cc;
+				text-align: center;
+				padding-left: 0px;
+				font-size: 20px;
+				height:100px;
+				border:0px;
+				//width:40%;
+				display:inline-block;
+			}
+	
+				
+			#street-view {
+        		max-height: 208px;
+        		min-height:183px;
+        		height:9.6em;
+      			width:100%;
+      			float:left;
+      			
+      		}
+      		
+      		#parkingTime{
+				font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;		
+				color:#BBBBBB;
+				font-size:50px;
+				text-align: center;
+				padding-left: 0px;
+				height: 100px;
+				padding-top:0.5vw;
+				border:0px;
+				display: inline-block;
+				//width:50%;
+				
+			}
+      		
+      		summary{
+      			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      			color:#aaaaaa;
+      			margin-bottom:5%;
+      		}
+      		
+      		section{
+      			width:80%;
+      			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				font-size:2vw;
+				text-align: center;
+      		}
+		
+				footer{	
+					width:10%;
+					float:left;
+				//	position: absolute;
+					right:0px;
+					top:0px;
+					
+				}
+				
+				
+				.wraper{
+					position:relative;
+				}
+				
+				article{
+					position: relative;
+				}
+				
+				
+				#map{
+				height:13.3em;
+				width: 100%;
+				margin-left:10px;
+				margin:auto;
+				
+				
+				
+			}
+				
+		.shareP{
+			float:left;
+			width:45%;
+			padding-top:60px;
+			//height:330px;
+			border:1px solid #bbbbbb;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			font-size:50px;
+			text-align: center;
+			color:#444444;
+			background-image: url(../images/gps-2.png);	
+			background-repeat:no-repeat;		
+		}
+	
+		.timeLine{
+			//height:220px;
+			padding-top:70px;
+			float:right;
+			border-top:2px solid #f7f6f6;
+			width:45%;	
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			font-size:5vw;
+			text-align: center;
+			color:#444444;
+			background-image: url(../images/constancy.png);
+			background-repeat:no-repeat;		
+		}	
+			/*
+		.findP{
+			float:left;
+			width :45%;
+			height:80vw;
+			border:1px solid #bbbbbb;
+			text-align: center;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			font-size:3vw;
+			padding-top:60px;
+			color:#444444;
+			background-image: url(../images/gps-1.png);
+			background-repeat:no-repeat;			
+		}
+		*/
+
+		.hamburger{
+			font-size:3vw;
+			padding-top:1.5vw;
+			padding-left:2vw;
+		}
+		.hamburger:hover{
+			cursor:pointer;
+		}
+		
+		
+		
+		footer ul{
+			list-style-type:none;
+			width:100%;
+			position:relative;
+			padding-left:30%;
+			background:#ffffff;
+			
+		}
+		
+		footer li{
+			position:relative;
+			width:20%;
+			margin-bottom:6vw;
+			height:20px;
+			float:left;
+				
+		}
+		
+		footer{
+			width:100%;
+		}
+		
+		.clear{
+			clear:both;
+		}
+		.userName{
+			float:right;
+			width:15%;
+			margin-right: 0px;	
+			cursor:pointer;
+		}	
+	
+		li section{
+			border:1px solid #BBBBBB;
+			height:40px;
+			border-radius:5px;
+			padding:7px;
+		}
+		
+		footer li img{
+		float:left;	
+		}
+	
+}
+
+@media (max-width:700px){
+		
+		.page-header{
+			padding-bottom:0px;
+		}
+		table{
+			margin:auto;
+			margin-bottom:15vw;
+			
+			
+		}
+		
+		.userName{
+			display: none;
+		}
+		
+		#mapArticle,#streetViewArticle{
+				display:none;
+		}
+		
+		.box{
+				width:100%;
+				border:0px solid #bbbbbb;
+				float:left;
+				margin-top:0%;
+				margin-bottom:0%;
+				text-align:center;
+			}
+			article article{
+				margin-bottom: 0px;
+				
+			}
+		
+		.brandName{
+			display:none;
+		}
+		input[type=range]::-webkit-slider-runnable-track {
+		    width: 80%;
+		    height: 2px;
+		    border: none;
+		    border-radius: 3px;
+		    margin-top:40px;
+		 
+		}
+				
+		output {
+		  display: block;
+		  color:#9A694B;
+		  font-size:30px;
+		  text-align:center;
+		  padding-bottom: 0px;
+		  padding-top: 0px;
+		}
+		
+		.input-range{
+			width:80%;
+			margin:auto;
+			border-bottom:2px solid #cccccc;
+			padding-top:5px;
+			padding-bottom: 5px;
+			
+		}
+		
+		nav{
+			width:100%;
+			height:13.3vw;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			margin-bottom:2.5vw;
+			
+		}
+		
+		li{
+			text-align:center;
+			padding-top:14px;
+			padding-bottom:11px;
+			float:left;
+			color:white;
+			width:33.3333333%;
+			font-size:5vw;
+			color:white;
+		}
+		
+		
+		
+		#desktopContainer{
+			display:none;
+		}
+		#mobileContainer{
+			display:block;
+		}
+		
+section span{
+	font-size:24vw;
+}
+
+		
+	nav section{
+	color:#ffffff;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:6.9vw;
+	text-align:center;
+	padding-top:3vw;
+	padding-bottom:2.9vw;
+	background:#777777;
+}
+		
+		.favoritsArticle{
+			border:0;
+		}
+		
+		.findP{
+			float:left;
+			width :50%;
+			//height:75vw;
+			border-right:1px solid #f7f6f6;
+			text-align: center;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			font-size:12vw;
+			padding-top:14vw;
+			padding-bottom:5vw;
+			color:#444444;
+			background-image: url(../images/gps-1.png);
+			background-repeat:no-repeat;
+			background-size:cover;
+				
+			}
+			
+			#street-view {
+        		height: 40vw;
+      		}
+	
+			#map{
+				height:118vw;
+				width: 96%;
+				margin:auto;
+				margin-top:10px;
+				border-radius: 8px;
+			}	
+			
+			
+			.shareP{
+				float:left;
+				width:50%;
+				padding-top:14vw;
+				//height:75vw;
+				border-left:1px solid #f7f6f6;
+				font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				font-size:12vw;
+				text-align: center;
+				color:#444444;
+				background-image: url(../images/gps-2.png);
+				background-repeat:no-repeat;
+				background-size:cover;			
+			}
+	
+			.timeLine{
+				height:40vw;
+				padding-top:15vw;
+				float:right;
+				border-top:2px solid #f7f6f6;
+				width:100%;
+				clear:both;
+				font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				font-size:12vw;
+				text-align: center;
+				color:#444444;
+				background-image: url(../images/constancy.png);	
+				background-repeat:no-repeat;
+				background-size:cover;
+				margin-bottom:15vw;
+			}	
+
+			header{
+				width:100%;
+				
+				background:#ffffff;
+			}
+			footer{
+				width:100%;
+				position:fixed;
+				bottom:0px;
+				height: 15vw;
+				border-top: 2px solid #f7f6f6;
+				background:#ffffff;
+			}
+			
+			section img{
+				margin-left:6px;
+				margin-top:8px;
+				
+				
+			}
+			li section{
+				margin-top:0px;
+				font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				height:30px;
+				width: 100%;
+				border: 1px solid #bbbbbb;
+				border-radius:4px;
+			}
+			
+			#parkingTime{
+				font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;		
+				color:#BBBBBB;
+				font-size:13vw;
+				text-align: center;
+				padding-left: 0px;
+				padding-bottom:5vw;
+				padding-top:5vw;
+				border:0px;
+			}
+			.confirmationMessage{
+				position:absolute;
+				z-index:99999;
+				color:#777777;
+				margin:auto;
+				width:90%;
+				font-size:8vw;
+				text-align:center;
+				top:45%;
+				display:none;
+				
+			}
+			.confirmationMessage span{
+				font-size:15vw;
+					
+			}
+			#moneyToPay{
+				color:#0088cc;
+				text-align: center;
+				padding-left: 0px;
+				font-size: 30px;
+				margin-bottom:5vw;
+				border:0px;
+			}
+			
+			
+			article{
+				border:1px solid #bbbbbb;
+				width:96%;
+				margin:auto;
+				padding-bottom:1vw;
+				border-radius:5px;
+				margin-bottom: 16vw;	
+			}
+			
+			main section img{
+				float:right;
+				position: relative;
+				margin-right:10px;
+				bottom:10px;
+				
+				
+			}
+			
+	
+			.addressBox{
+				border:1px solid #bbbbbb;	
+				border-left: 6px solid #9a694b;
+				margin-bottom:10px;
+				border-radius:5px;
+				
+				
+			}
+			
+			article section{
+				width:100%;
+				height: 70px;
+				font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				font-size:5vw;
+				padding-left:3vw;
+				padding-top:6%;
+				border-bottom:1px solid #bbbbbb;
+				
+			}
+	footer li img{
+		float:left;	
+		clear:both;
+		//background: red;
+		padding-bottom:10px;
+		position:relative;
+		bottom:2vw;
+		
+
+}
+			
+
+
+
+}

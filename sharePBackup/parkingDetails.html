@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>parkingDetails</title>
+		<meta charset="UTF-8">
+		<script src="includes/jquery-3.1.1.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="includes/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="initial-scale=1.0">
+		<script src="includes/scripts.js"></script>
+		<link rel="stylesheet" href="includes/style.css">
+	</head>		
+	<body>		
+		<header>
+			<label class="hamburger">&#9776;</label>
+			<a href="index.html" id="logo"></a>
+		</header>
+		<nav>
+			<ul>
+				<li class="pickedNav"><a href="findP.html">Find P</a></li>
+				<li class="unPickedNav"><a href="shareP.html">Share P</a></li>
+				<li class="unPickedNav"><a href="timeLine.html">My timeline</a></li>
+			</ul>
+		</nav>
+		<div class="wraper">
+		<main>	
+			<article>
+				<div class="confirmationMessage">
+					<p><img src="images/checked1.png"/><span>thank you</span><br>for choosing <br>social P</p>
+				</div>
+				<section>Anne Frank 5, Ramat Gan</section>
+				<section id="street-view"></section>
+				<section id="parkingTime"></section>
+				<section id ="moneyToPay"></section>
+				<div class="col-md-4 text-center">
+					<button id="startParking" type="button" class="btn btn-primary  btn-md">Start parking</button>
+				</div>
+				<div class="col-md-4 text-center">
+					<button id="parkingConfirmation" type="button" class="btn btn-primary  btn-md" >OK</button>
+				</div>
+			</article>
+		</main>
+		<footer>
+			<ul>
+				<li><a href="findP.html"><img src="images/locationOnMapgray.svg" /></a></li>
+				<li><a href="favorites.html"><img src="images/favoritegray.svg" /></a></li>
+				<li><a href="#"><section><img src="images/serchIcon.svg" /></section></a></li>
+			</ul>
+		</footer>
+		</div>
+	<script>
+		$(function(){
+			loadData();
+		});
+	</script>	   
+	<script async defer
+         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYGQ8hZB-Y2CyqI0vtufp3cGXICsiQ8qE&callback=initialize">
+    </script>
+	</body>
+</html>

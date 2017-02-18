@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>index</title>
+		<meta charset="UTF-8">
+		<script src="includes/jquery-3.1.1.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="includes/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">	
+		<script src="includes/scripts.js"></script>
+		<link rel="stylesheet" href="includes/style.css">
+	</head>		
+	<body>	
+		<header>
+			<label class="hamburger">&#9776;</label>
+			<a href="#" id="logo"><summery class="brandName">Social parking</summery></a>	
+		</header>
+		<nav>
+			<ul>
+				<li class="unPickedNav"><a href="findP.html">Find P</a></li>
+				<li class="unPickedNav"><a href="shareP.html">Share P</a></li>
+				<li class="unPickedNav"><a href="timeLine.html">My timeline</a></li>
+				<li class="userName"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Hello Ephraim</li>
+				<div class="clear"></div>
+			</ul>
+		</nav>
+		<div class="container" id="desktopContainer">
+			<article class="box" id="user">
+  					<div class="page-header">
+  					<h2>Wellcome back</h2>
+				</div>
+				<summary>Wellcome back</summary>
+				<div class="col-md-12 text-center">
+					<a href="findP.html"><button id="parkingConfirmation" type="button" class="btn btn-primary  btn-sm" >Find parking</button></a>
+				</div>
+			</article>
+			<article class="box">
+				<div class="page-header">
+  					<h2>Find P</h2>
+				</div>
+				<summary>Easy way to find the best parking everywhere</summary>
+				<div class="col-md-12 text-center">
+					<a href="findP.html"><button id="parkingConfirmation" type="button" class="btn btn-primary  btn-sm" >Find parking</button></a>
+				</div>
+			</article>
+			<article class="box">
+				<div class="page-header">
+  					<h2>Share P</h2>
+				</div>
+				<summary>Let your private parking make money for you</summary>
+				<div class="col-md-12 text-center">
+					<a href="shareP.html"><button  type="button" class="btn btn-primary  btn-sm" >Share parking</button></a>
+				</div>
+			</article>
+			<article class="box">
+				<div class="page-header">
+  					<h2>My timeLine</h2>
+				</div>
+				<summary>Track and control Your parking usage</summary>
+				<div class="col-md-12 text-center">
+					<a href="#"><button type="button" class="btn btn-primary  btn-sm" >My timeline</button></a>
+				</div>
+			</article>
+		</div>
+		<div id="mobileContainer">
+		<main>
+				<a href="findP.html"><section class="findP">Find<br><span>P</span></section></a>
+				<a href="shareP.html"><section class="shareP">Share<br><span>P</span></section></a>
+				<a href="timeLine.html"><section class="timeLine">My Timeline</section></a>
+			</div>
+		</main>
+		<footer></footer>
+		<script>
+			$(function(){
+				getMetaData();
+			});
+		</script>
+	</body>
+</html>
